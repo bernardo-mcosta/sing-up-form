@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "norse-bold";
+  src: url(./resources/Norse-Bold.otf);
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.left-container {
+  position: relative;
+  width: 40vw;
+  height: 100vh;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.left-container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  top: 20vh;
+  height: 100px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+  font-family: "norse-bold", cursive;
+  font-size: 80px;
+}
+
+.left-container-title img {
+  height: 100%;
+  width: auto;
+}
+
+.left-container-footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1vh;
+  left: 50%;
+  transform: translateX(-50%);
+
+  font-size: 12px;
+  font-weight: lighter;
+  white-space: nowrap;
+}
+
+.left-container-footer a {
+  color: white;
+}
